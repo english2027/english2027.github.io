@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        We are learning English!
+        <div class=" spacer"></div>
+        <textarea id="textInput" placeholder="Here you will see the text spoken by you"></textarea>
+        <div class=" spacer"></div>
+        <button id="sendButton" onclick="speech()">Do you want to say something? Click here - and talk</button>
+        <div class=" spacer"></div>
+        <textarea id="textOutput" placeholder="Here you will see the answer pronounced by Artificial Intelligence (AI)"></textarea>
+        <div class=" spacer"></div>
+        <button onclick="talk(outp.value)">Want to listen to the AI-pronounced answer again - click here</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+ 
+    <script>
+
+let ak = prompt('Enter apiKey');
+
+    </script>
+  
+</body>
+</html>
